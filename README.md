@@ -1,3 +1,5 @@
+![skillyn](./assets/og-image.svg)
+
 # skillyn
 
 > A decentralized skill registry for [Claude Code](https://claude.ai/code) — publish, share, and install reusable AI skills from GitHub.

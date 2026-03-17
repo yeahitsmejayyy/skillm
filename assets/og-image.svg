@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap');
+    </style>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#22d3ee" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+
+  <!-- Ambient glow -->
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Outer border -->
+  <rect width="1200" height="630" fill="none" stroke="#1e1e2e" stroke-width="1"/>
+
+  <!-- Wordmark: ski + ll (cyan) + yn -->
+  <text
+    x="600" y="300"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="110"
+    font-weight="700"
+    text-anchor="middle"
+    letter-spacing="-2"
+  >
+    <tspan fill="#e2e8f0">ski</tspan><tspan fill="#22d3ee">ll</tspan><tspan fill="#e2e8f0">yn</tspan>
+  </text>
+
+  <!-- Gradient underline (aligned under wordmark) -->
+  <rect x="370" y="322" width="460" height="2" fill="url(#line-grad)"/>
+
+  <!-- Tagline -->
+  <text
+    x="600" y="390"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="22"
+    text-anchor="middle"
+    fill="#64748b"
+  >Stop prompting. Start installing.</text>
+
+  <!-- Bottom label -->
+  <text
+    x="600" y="590"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="14"
+    text-anchor="middle"
+    fill="#64748b"
+    opacity="0.45"
+  >Claude Code Skills Marketplace</text>
+
+  <!-- Cyan bottom accent -->
+  <rect x="0" y="625" width="1200" height="2" fill="#22d3ee" opacity="0.15"/>
+</svg>
