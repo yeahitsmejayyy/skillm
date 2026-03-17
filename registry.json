@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "name": "hello_world",
+      "version": "1.0.0",
+      "path": "skills/hello_world",
+      "description": "Simple test skill"
+    }
+  ]
+}
