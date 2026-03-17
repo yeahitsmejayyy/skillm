@@ -1,1 +1,1 @@
-console.log("🔥 Hello from OpenSkills!");
+console.log("🔥 Hello from Skillyn!");
