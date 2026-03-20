@@ -1,6 +1,6 @@
-![skillyn](./assets/og-image.svg)
+![skillm](./assets/og-image.svg)
 
-# skillyn
+# skillm
 
 > A decentralized skill registry for [Claude Code](https://claude.ai/code) — publish, share, and install reusable AI skills from GitHub.
 
@@ -16,20 +16,20 @@ Instead of rewriting the same prompts and scripts in every project, you define a
 
 ## How it works
 
-skillyn has three parts:
+skillm has three parts:
 
 | Part | Description |
 |---|---|
-| **skillyn** (this repo) | A GitHub-hosted skill registry — a curated collection of installable skills |
-| **[skillyn-cli](https://github.com/yeahitsmejayyy/skillyn-cli)** | The npm CLI that installs and runs skills |
+| **skillm** (this repo) | A GitHub-hosted skill registry — a curated collection of installable skills |
+| **[skillm-cli](https://github.com/yeahitsmejayyy/skillm-cli)** | The npm CLI that installs and runs skills |
 | **A skill** | A folder with `skill.json` + `run.ts` that does one focused thing |
 
-When you run `skillyn add hello_world`, the CLI:
+When you run `skillm add hello_world`, the CLI:
 1. Fetches `registry.json` from this repo
 2. Resolves the skill entry
-3. Downloads `skill.json` and `run.ts` into `~/.skillyn/skills/<owner>/<skill>/`
+3. Downloads `skill.json` and `run.ts` into `~/.skillm/skills/<owner>/<skill>/`
 
-When you run `skillyn run hello_world`, it executes `run.ts` locally via Bun.
+When you run `skillm run hello_world`, it executes `run.ts` locally via Bun.
 
 ---
 
@@ -38,23 +38,23 @@ When you run `skillyn run hello_world`, it executes `run.ts` locally via Bun.
 ### 1. Install the CLI
 
 ```bash
-npm install -g skillyn
+npm install -g skillm
 ```
 
 ### 2. Add a skill
 
 ```bash
 # From this registry
-skillyn add hello_world
+skillm add hello_world
 
 # From any GitHub user's registry
-skillyn add <github-username>/<skill-name>
+skillm add <github-username>/<skill-name>
 ```
 
 ### 3. Run a skill
 
 ```bash
-skillyn run hello_world
+skillm run hello_world
 ```
 
 ---
@@ -62,7 +62,7 @@ skillyn run hello_world
 ## Registry structure
 
 ```
-skillyn/
+skillm/
 ├── registry.json          # Index of all available skills
 └── skills/
     └── hello_world/
@@ -102,10 +102,10 @@ Per-skill metadata. Lives inside the skill's folder.
 
 ### `run.ts`
 
-The skill's entry point. Executed by Bun when `skillyn run` is called.
+The skill's entry point. Executed by Bun when `skillm run` is called.
 
 ```ts
-console.log("Hello from Skillyn!");
+console.log("Hello from Skillm!");
 ```
 
 ---
@@ -120,13 +120,13 @@ console.log("Hello from Skillyn!");
 
 ## Hosting your own registry
 
-skillyn is designed to be decentralized. To host your own registry:
+skillm is designed to be decentralized. To host your own registry:
 
-1. Create a GitHub repo named `skillyn`
+1. Create a GitHub repo named `skillm`
 2. Add a `registry.json` and `skills/` folder following the structure above
-3. Publish skills with: `skillyn add <your-github-username>/<skill-name>`
+3. Publish skills with: `skillm add <your-github-username>/<skill-name>`
 
-Your registry is automatically resolved from `https://raw.githubusercontent.com/<username>/skillyn/main/registry.json`.
+Your registry is automatically resolved from `https://raw.githubusercontent.com/<username>/skillm/main/registry.json`.
 
 ---
 
@@ -143,5 +143,5 @@ Keep skills focused — one skill, one job.
 
 ## Related
 
-- [skillyn-cli](https://github.com/yeahitsmejayyy/skillyn-cli) — CLI source code
-- [npm: skillyn](https://www.npmjs.com/package/skillyn) — published package
+- [skillm-cli](https://github.com/yeahitsmejayyy/skillm-cli) — CLI source code
+- [npm: skillm](https://www.npmjs.com/package/skillm) — published package

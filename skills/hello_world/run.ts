@@ -1,1 +1,1 @@
-console.log("🔥 Hello from Skillyn!");
+console.log("🔥 Hello from Skillm!");

@@ -23,7 +23,7 @@
   <!-- Outer border -->
   <rect width="1200" height="630" fill="none" stroke="#1e1e2e" stroke-width="1"/>
 
-  <!-- Wordmark: ski + ll (cyan) + yn -->
+  <!-- Wordmark: ski + ll (cyan) + m -->
   <text
     x="600" y="300"
     font-family="'Space Mono', 'Courier New', monospace"
@@ -32,7 +32,7 @@
     text-anchor="middle"
     letter-spacing="-2"
   >
-    <tspan fill="#e2e8f0">ski</tspan><tspan fill="#22d3ee">ll</tspan><tspan fill="#e2e8f0">yn</tspan>
+    <tspan fill="#e2e8f0">ski</tspan><tspan fill="#22d3ee">ll</tspan><tspan fill="#e2e8f0">m</tspan>
   </text>
 
   <!-- Gradient underline (aligned under wordmark) -->
