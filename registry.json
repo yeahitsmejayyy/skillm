@@ -5,6 +5,12 @@
       "version": "1.0.0",
       "path": "skills/ping",
       "description": "A simple health check skill"
+    },
+    {
+      "name": "adminui",
+      "version": "1.0.0",
+      "path": "skills/adminui",
+      "description": "Scaffolds a new admin UI project from the skelly-admin template"
     }
   ]
 }

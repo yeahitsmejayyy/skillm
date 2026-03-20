@@ -1,0 +1,6 @@
+{
+  "name": "adminui",
+  "version": "1.0.0",
+  "description": "Scaffolds a new admin UI project from the skelly-admin template",
+  "entry": "run.ts"
+}
