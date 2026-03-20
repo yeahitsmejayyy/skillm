@@ -1,10 +1,10 @@
 {
   "skills": [
     {
-      "name": "hello_world",
+      "name": "ping",
       "version": "1.0.0",
-      "path": "skills/hello_world",
-      "description": "Simple test skill"
+      "path": "skills/ping",
+      "description": "Responds with Pong 🏓"
     }
   ]
 }

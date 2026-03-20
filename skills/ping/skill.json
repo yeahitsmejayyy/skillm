@@ -1,0 +1,6 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "Responds with Pong 🏓",
+  "entry": "run.ts"
+}
