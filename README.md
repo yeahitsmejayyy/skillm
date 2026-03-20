@@ -1,4 +1,4 @@
-![skillm](./assets/og-image.svg)
+![skillm](./assets/og-image.png)
 
 # skillm
 
