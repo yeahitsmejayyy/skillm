@@ -4,7 +4,7 @@
       "name": "ping",
       "version": "1.0.0",
       "path": "skills/ping",
-      "description": "Responds with Pong 🏓"
+      "description": "A simple health check skill"
     }
   ]
 }
